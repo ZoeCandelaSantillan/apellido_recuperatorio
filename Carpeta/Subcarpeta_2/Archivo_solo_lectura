@@ -1,0 +1,12 @@
+paso a paso para subirlo a git 
+git config --global "user.name"
+git config --global "user.email"
+git remote -v 
+git remote remove origin 
+git remote add origin
+git add :añade las carpetas o los archivos 
+git add "Nombre de archivo":añade ese archivo y los deja listos para commitear 
+git commit -m "mensaje" :guarda los cambios en git con un mensaje que describe lo hecho
+git branch -m main :crea una rama 
+git push -u origin main.sube los cambios hacia la rama main
+
