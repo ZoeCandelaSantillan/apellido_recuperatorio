@@ -1,0 +1,12 @@
+1. FIJARSE QUIEN ESTABA LOGGEADO:
+git config --global user.name "tu nombre" : te muestra el nombre de quien estaba loggeado
+git config --global user.email "tu email" : te muestra el email
+2. DONDE SE SUBE:
+git remote -v : para ver el link que estaba antes
+git remote remove origin : para borrar ese link
+git remote add origin : para agregar el tuyo
+3. SUBIRLO COMO TAL
+git add : añade texto en el archivo
+git commit -m : guarda el texto que escribimos
+git branch -m main
+git push : para leer el mensaje que dejamos
