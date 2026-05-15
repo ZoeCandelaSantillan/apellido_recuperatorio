@@ -1,0 +1,24 @@
+PASO 1: revisar quién está logueado
+git config user.name
+git config user.email
+
+PASO 2 (OPCIONAL): si no son ustedes, loguearse
+git config user.name "TuNombreDeUsuario"
+git config user.email "tucorreo"
+
+PASO 3: añadir y describir cambios
+git status
+git add 
+git commit -m 
+
+PASO 4: preparar rama y destino
+git branch -M main
+git remote add origin URL_DEL_REPOSITORIO
+
+PASO 5 (OPCIONAL): verificar destino y borrarlo, para después añadir el nuestro
+git remote -v
+git remote remove origin
+git remote add origin URL_DEL_REPOSITORIO
+
+PASO 6: subir los cambios
+git push -u origin main
