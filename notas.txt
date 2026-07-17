@@ -1,0 +1,3 @@
+a)git init se ejecuta al principio cuando entras a tu carpeta 
+b)git commit sirve para dejar un mensaje descriptivo
+
